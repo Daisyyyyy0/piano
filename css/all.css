@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  color: #333;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: #894e54;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.piano-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.piano-wrap .key {
+  background-color: #fff;
+  width: 5rem;
+  height: 25rem;
+  border: 1px solid #333;
+}
+
+.piano-wrap .black {
+  position: absolute;
+  height: 15rem;
+  width: 4.25rem;
+  background-color: #333;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.piano-wrap .black.bD {
+  left: 5rem;
+}
+
+.piano-wrap .black.bE {
+  left: 10rem;
+}
+
+.piano-wrap .black.bG {
+  left: 20rem;
+}
+
+.piano-wrap .black.bA {
+  left: 25rem;
+}
+
+.piano-wrap .black.bB {
+  left: 30rem;
+}
+/*# sourceMappingURL=all.css.map */

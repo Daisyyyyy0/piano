@@ -1,0 +1,37 @@
+.piano-wrap{
+    display: flex;
+    position: relative;
+    .key{
+        background-color: #fff;
+        width: 5rem;
+        height: 25rem;
+        border: 1px solid #333;
+    }
+    .black{
+        position: absolute;
+        height: 15rem;
+        width: 4.25rem;
+        background-color: #333;
+        transform: translateX(-50%);
+
+        &.bD{
+            left:1*$key_width;
+
+        }
+        &.bE{
+            left: 2*$key_width;
+
+        }
+        &.bG{
+            left: 4*$key_width;
+        }
+        &.bA{
+            left: 5*$key_width;
+        }
+        &.bB{
+            left: 6*$key_width;
+        }
+    }
+    
+
+}
