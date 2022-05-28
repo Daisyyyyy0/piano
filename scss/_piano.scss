@@ -3,35 +3,43 @@
     position: relative;
     .key{
         background-color: #fff;
-        width: 5rem;
+        width: 6rem;
         height: 25rem;
         border: 1px solid #333;
     }
-    .black{
+
+    .key-black{
         position: absolute;
         height: 15rem;
-        width: 4.25rem;
-        background-color: #333;
+        width: 4rem;
+        background-color: #222;
         transform: translateX(-50%);
+        
 
-        &.bD{
+        &.Db{
             left:1*$key_width;
 
         }
-        &.bE{
+        &.Eb{
             left: 2*$key_width;
 
         }
-        &.bG{
+        &.Gb{
             left: 4*$key_width;
         }
-        &.bA{
+        &.Ab{
             left: 5*$key_width;
         }
-        &.bB{
+        &.Bb{
             left: 6*$key_width;
         }
     }
-    
+}
 
+
+.key-white.active{
+    background-color: #dedede;
+}
+.key-black.active{
+    background-color: #444;
 }

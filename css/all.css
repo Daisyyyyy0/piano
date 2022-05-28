@@ -5,6 +5,11 @@
           box-sizing: border-box;
 }
 
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 a {
   display: inline-block;
   color: #333;
@@ -34,37 +39,45 @@ main {
 
 .piano-wrap .key {
   background-color: #fff;
-  width: 5rem;
+  width: 6rem;
   height: 25rem;
   border: 1px solid #333;
 }
 
-.piano-wrap .black {
+.piano-wrap .key-black {
   position: absolute;
   height: 15rem;
-  width: 4.25rem;
-  background-color: #333;
+  width: 4rem;
+  background-color: #222;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
-.piano-wrap .black.bD {
-  left: 5rem;
+.piano-wrap .key-black.Db {
+  left: 6rem;
 }
 
-.piano-wrap .black.bE {
-  left: 10rem;
+.piano-wrap .key-black.Eb {
+  left: 12rem;
 }
 
-.piano-wrap .black.bG {
-  left: 20rem;
+.piano-wrap .key-black.Gb {
+  left: 24rem;
 }
 
-.piano-wrap .black.bA {
-  left: 25rem;
-}
-
-.piano-wrap .black.bB {
+.piano-wrap .key-black.Ab {
   left: 30rem;
+}
+
+.piano-wrap .key-black.Bb {
+  left: 36rem;
+}
+
+.key-white.active {
+  background-color: #dedede;
+}
+
+.key-black.active {
+  background-color: #444;
 }
 /*# sourceMappingURL=all.css.map */
